@@ -108,15 +108,15 @@ Point (6.0, 4.0) is not in the rectangle
 
 A teacher wants a program to keep track of grades for students and decides to create program as follows:
 
-Each student will be described by three pieces of data: his/her name, his/her score on test #1, and his/her score on test#2.
+Each student will be described by three pieces of data: his/her name, his/her score on test #1, and his/her score on test #2.
 
-The teacher must enter the class size such as 5 students 
+The teacher must enter the class size such as 5 students.
 
-The teacher then is prompted to enter the grades for students starting with students 1 to n depending on the class size
+The teacher then is prompted to enter the name and two scores for each student starting with students 1 to n depending on the class size.
 
-The program then computes the student grade, an average of the test scores entered
+The program then computes the average of the test scores entered.
 
-The program then computes the letter grade for the student corresponding to a student’s average such that:
+The program then computes the letter grade for the student corresponding to the student’s average score such that:
 
 – (80-100] will return A – please note that ‘(80-100]’ means >80 and up to and including 100 
 
