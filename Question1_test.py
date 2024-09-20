@@ -1,6 +1,7 @@
 import math
 from unittest.mock import patch
 import pytest
+import importlib
 
 def test_garden_requirements(capfd):
   # Patch input to simulate user input
@@ -31,6 +32,7 @@ def test_small_garden_requirements(capfd):
 
   with patch('builtins.input', lambda _: next(inputs)):
       import Question1
+      importlib.reload(Question1)
 
   # Capture printed output
   out, _ = capfd.readouterr()
