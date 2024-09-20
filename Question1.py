@@ -9,4 +9,7 @@ Soil for each semicircle garden:
 Soil for the circle garden:
 Total soil for the garden:
 Total fill for the garden:
+
+For example:
+print("Plants for each semicircle garden:", plants_for_each_semicircle)
 """
